@@ -1,0 +1,15 @@
+#footerFront{
+    #footerFrontDiv{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        #footerFrontList{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+    }
+    #logoFooter{
+        width: 150px;
+        height: auto;
+    }
+}
